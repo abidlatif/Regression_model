@@ -63,3 +63,13 @@ table(male_stay
       )
 
 table(male_stay)
+
+hospital_data=
+  data.frame(age, gender, degree, stay, diagnosis)
+male_stay= stay[gender==2]
+table(male_stay
+)
+male_stay
+female_stay= stay[gender==1]
+female_stay
+boxplot(female_stay,male_stay)
