@@ -34,6 +34,4 @@ room_frequency= table(number_of_rooms)
 barplot(room_frequency,main = "Bar plot", xlab = "number of rooms", ylab = "frequency")
 
 rel_freq= room_frequency/length(number_of_rooms)
-pie(rel_freq
-    )
-  
+pie(rel_freq)
