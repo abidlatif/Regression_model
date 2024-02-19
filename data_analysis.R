@@ -51,3 +51,15 @@ gender_freq=table(gender)
 pie(gender_freq/length(gender))
 degree_freq=table(degree)
 pie(degree_freq/length(degree))
+barplot(degree_freq/length(degree))
+plot(stay)
+barplot(hospital_data$gender)
+barplot(hospital_data$degree)
+barplot(hospital_data$diagnosis)
+hist(hospital_data$stay)
+hist(hospital_data$age)
+male_stay= stay[gender==2]
+table(male_stay
+      )
+
+table(male_stay)
