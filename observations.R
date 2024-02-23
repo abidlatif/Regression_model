@@ -13,4 +13,8 @@ y= rnorm(100, mean = 10.8, sd= 5)
 ks.test(x,y)
 
 
+
+
+
+  
  
