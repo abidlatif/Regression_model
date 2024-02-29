@@ -61,7 +61,7 @@ hist(hospital_data$age)
 male_stay= stay[gender==2]
 table(male_stay
       )
-
+  
 table(male_stay)
 
 hospital_data=
