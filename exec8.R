@@ -21,7 +21,7 @@ exp(mymodel$coefficients)
 confint(mymodel)
 
 exp(confint(mymodel))
-
+ 
 plot(joy_mean,fitted(mymodel))
 plot(joy_means,fitted(mymodel))
 plot(statistics$joy_mean,fitted(mymodel))
