@@ -76,3 +76,4 @@ boxplot(female_stay,male_stay)
 
 quantile(female_stay, c(.25,.50,.75))
 quantile(male_stay,c(.25,.59,.75))
+ 
