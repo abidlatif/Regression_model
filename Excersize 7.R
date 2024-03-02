@@ -10,5 +10,4 @@ mymodel2= lm(Price ~ MPG.highway)
 mymodel3= lm(Price ~ MPG.highway, MPG.city)
 plot(lm(Price ~ MPG.city))
 
-
-  
+ 
