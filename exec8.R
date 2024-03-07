@@ -1,3 +1,5 @@
+
+#read the file 
 statistics = read.csv(file="statistics.csv")
 names(statistics)
 attach(statistics)
