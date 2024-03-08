@@ -8,7 +8,7 @@ statistics.joy_mean1 = rowMeans(subset(statistics,
                                                 stats_joy5)), na.rm=TRUE)
 statistics$joy_mean = statistics.joy_mean
 names(statistics)
-
+# getting the row means 
 statistics.joy_mean1= rowMeans(subset(statistics, select = c(stats_joy1,stats_joy2,stats_joy3,stats_joy4,stats_joy5)),na.rm = TRUE)
 names(statistics)
 statistics$joy_mean= statistics.joy_mean1
