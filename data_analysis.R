@@ -8,6 +8,7 @@ table(x)
 x=c(2, 9, 15, 13, 82, 65)
 summary(x
         )
+#quantiles 
 quantile(x,.22)
  
     
