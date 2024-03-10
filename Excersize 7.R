@@ -8,6 +8,7 @@ mydata=data.frame(Price, EngineSize,
 #setting the model 
 mymodel= lm(Price ~ MPG.city)
 mymodel2= lm(Price ~ MPG.highway)
+#model 3
 mymodel3= lm(Price ~ MPG.highway, MPG.city)
 #plot for the model 
 plot(lm(Price ~ MPG.city))
