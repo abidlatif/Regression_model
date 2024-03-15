@@ -1,5 +1,6 @@
 #Opening the data already provided
 library("MASS")
+#load library
 attach(Cars93)
 #Variables assignment 
 mydata=data.frame(Price, EngineSize,
