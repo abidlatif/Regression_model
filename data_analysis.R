@@ -59,6 +59,7 @@ degree_freq=table(degree)
 pie(degree_freq/length(degree))
 barplot(degree_freq/length(degree))
 plot(stay)
+#ploting
 barplot(hospital_data$gender)
 barplot(hospital_data$degree)
 barplot(hospital_data$diagnosis)
