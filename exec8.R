@@ -2,6 +2,7 @@
 #read the file 
 statistics = read.csv(file="statistics.csv")
 names(statistics)
+#read files 
 attach(statistics)
 #row means
 statistics.joy_mean1 = rowMeans(subset(statistics,
