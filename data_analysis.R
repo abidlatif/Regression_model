@@ -52,6 +52,7 @@ diagnosis=c(2,3,1,1,2,2,2,1,2,2,2,4,3,1,2,2,2,3,4,2,3,1,1)
 hospital_data= data.frame(age, gender, degree, stay, diagnosis)
 dim((hospital_data))
 plot(age)
+#pie chart
 pie(gender)
 gender_freq=table(gender)
 pie(gender_freq/length(gender))
