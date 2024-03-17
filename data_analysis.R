@@ -55,6 +55,7 @@ plot(age)
 #pie chart
 pie(gender)
 gender_freq=table(gender)
+#pie chart declaration
 pie(gender_freq/length(gender))
 degree_freq=table(degree)
 pie(degree_freq/length(degree))
