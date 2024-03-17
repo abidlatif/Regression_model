@@ -64,6 +64,7 @@ barplot(degree_freq/length(degree))
 plot(stay)
 #ploting
 barplot(hospital_data$gender)
+#bar plot added
 barplot(hospital_data$degree)
 barplot(hospital_data$diagnosis)
 hist(hospital_data$stay)
