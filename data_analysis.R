@@ -68,6 +68,7 @@ barplot(hospital_data$gender)
 #bar plot added
 barplot(hospital_data$degree)
 barplot(hospital_data$diagnosis)
+#histogram
 hist(hospital_data$stay)
 hist(hospital_data$age)
 male_stay= stay[gender==2]
