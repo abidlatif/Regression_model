@@ -71,6 +71,7 @@ barplot(hospital_data$diagnosis)
 #histogram
 hist(hospital_data$stay)
 hist(hospital_data$age)
+#gender segregation
 male_stay= stay[gender==2]
 table(male_stay
       )
