@@ -75,6 +75,7 @@ hist(hospital_data$age)
 male_stay= stay[gender==2]
 table(male_stay
       )
+#frequency
   
 table(male_stay)
 
