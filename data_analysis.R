@@ -60,6 +60,7 @@ pie(gender_freq/length(gender))
 degree_freq=table(degree)
 #chart added 
 pie(degree_freq/length(degree))
+#bar plot
 barplot(degree_freq/length(degree))
 plot(stay)
 #ploting
