@@ -78,7 +78,7 @@ table(male_stay
 #frequency
   
 table(male_stay)
-
+#data frame
 hospital_data=
   data.frame(age, gender, degree, stay, diagnosis)
 male_stay= stay[gender==2]
