@@ -18,6 +18,7 @@ statistics$joy_mean= statistics.joy_mean1
 names(statistics)
 # statistics trend 
 statistics.attend= factor(attend_or_not,levels = c("course not attended", "course attended"))
+# adding data
 statistics$attend= statistics.attend
 names(statistics
       )
