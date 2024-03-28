@@ -22,6 +22,7 @@ statistics.attend= factor(attend_or_not,levels = c("course not attended", "cours
 statistics$attend= statistics.attend
 names(statistics
       )
+#data model
 mymodel = glm(attend~ joy_mean, data = statistics, family = binomial())
 summary(mymodel)
 exp(mymodel$coefficients)
