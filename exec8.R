@@ -32,6 +32,7 @@ exp(confint(mymodel))
  
 plot(joy_mean,fitted(mymodel))
 plot(joy_means,fitted(mymodel))
+#fitted plot
 plot(statistics$joy_mean,fitted(mymodel))
 
  
