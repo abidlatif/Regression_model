@@ -87,6 +87,7 @@ table(male_stay
 male_stay
 female_stay= stay[gender==1]
 female_stay
+# gender
 boxplot(female_stay,male_stay)
 #quantiles 
 quantile(female_stay, c(.25,.50,.75))
