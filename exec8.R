@@ -27,7 +27,7 @@ mymodel = glm(attend~ joy_mean, data = statistics, family = binomial())
 summary(mymodel)
 exp(mymodel$coefficients)
 confint(mymodel)
-#condint
+#confint
 exp(confint(mymodel))
  
 plot(joy_mean,fitted(mymodel))
