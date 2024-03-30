@@ -10,7 +10,7 @@ print(ks_result)
 
 # Question two 
 x = rnorm(100, mean = 10, sd=4.7)
-#normalization 
+#normalization or rnorm
 y= rnorm(100, mean = 10.8, sd= 5)
 # ks test performed  
 ks.test(x,y)
