@@ -8,7 +8,7 @@ ks_result= ks.test(sample_data, sample_data2)
 
 print(ks_result)
 
-# Question two 
+# Question two oer
 x = rnorm(100, mean = 10, sd=4.7)
 #normalization or rnorm
 y= rnorm(100, mean = 10.8, sd= 5)
