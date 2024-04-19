@@ -15,6 +15,7 @@ statistics.joy_mean1= rowMeans(subset(statistics, select = c(stats_joy1,stats_jo
 names(statistics)
 #names
 statistics$joy_mean= statistics.joy_mean1
+#names of the 
 names(statistics)
 # statistics trend 
 statistics.attend= factor(attend_or_not,levels = c("course not attended", "course attended"))
