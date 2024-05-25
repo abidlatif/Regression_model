@@ -1,12 +1,7 @@
-# Load the mtcars dataset
-data(mtcars)
+data("cars")
+head(cars)
+# Fit a linear model
+model <- lm(mpg ~ wt, data = mtcars)
 
-# Perform linear regression
-model <- lm(mpg ~ hp, data = mtcars)
-
-# Print the coefficients
+# Display the model summary
 summary(model)
-
-# Plot the results
-plot(mtcars$hp, mtcars$mpg, main = "Linear Regression in R", xlab = "Horsepower (hp)", ylab = "Miles per Gallon (mpg)")
-abline(model, col = "red")
